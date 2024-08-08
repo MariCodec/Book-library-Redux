@@ -19,3 +19,16 @@ export const clearBook = () => {
     type: a.CLEAR_ALL_BOOK,
   };
 };
+
+export const toggleFavorite = (bookId) => {
+  return {
+    type: a.TOGGLE_FAVORITE,
+    payload: bookId,
+  };
+};
+// export const filter = (bookId) => {
+//   return {
+//     type: a.TOGGLE_FAVORITE,
+//     payload: bookId,
+//   };
+// };
