@@ -1,10 +1,11 @@
 import { useState } from "react";
 import { useDispatch } from "react-redux";
 import { v4 as uuidv4 } from "uuid";
-import { addBook } from "../../redux/books/actionCreators";
+
 import booksData from "../../data/books.json";
 import "./BookForm.css";
 import { createBookWithId } from "../../utils/createBookWithId";
+import { addBook } from "../../redux/slices/bookSlice";
 export const BookForm = () => {
   const [title, setTitle] = useState("");
   const [author, setAuthor] = useState("");
