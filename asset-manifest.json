@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Book-library-Redux/static/css/main.b3baa2e6.css",
+    "main.js": "/Book-library-Redux/static/js/main.ae8bed92.js",
+    "index.html": "/Book-library-Redux/index.html",
+    "main.b3baa2e6.css.map": "/Book-library-Redux/static/css/main.b3baa2e6.css.map",
+    "main.ae8bed92.js.map": "/Book-library-Redux/static/js/main.ae8bed92.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b3baa2e6.css",
+    "static/js/main.ae8bed92.js"
+  ]
+}
